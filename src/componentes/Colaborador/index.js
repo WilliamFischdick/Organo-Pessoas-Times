@@ -17,10 +17,9 @@ const Colaborador = ({ colaborador, corDeFundo, aoDeletar, aoFavoritar }) => {
         <div className="rodape">
             <h4>{colaborador.nome}</h4>
             <h5>{colaborador.cargo}</h5>
-        </div>
         <div className='favoritar'>
             {colaborador.favorito ? <AiFillHeart {...propsfavorito} color='#ff0000' /> : <AiOutlineHeart {...propsfavorito} />}
-
+        </div>
         </div>
     </div>)
 }
